@@ -20,7 +20,7 @@ import {MIDIMessageEvent} from './midimessage_event'
     //polyfill()
 
     navigator.requestMIDIAccess = function(){
-      console.log('webmidiapishim', navigator.requestMIDIAccess)
+      console.log('webmidiapishim 1.0.1', navigator.requestMIDIAccess)
       return createMIDIAccess()
     }
 /*

@@ -1,6 +1,6 @@
 {
   "name": "webmidiapishim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chris Wilson's WebMIDIAPIShim made available via npm for es next projects",
   "keywords": [
     "midi",
@@ -62,7 +62,7 @@
     ]
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">0.10.x"
   },
   "private": false
 }
