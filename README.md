@@ -13,19 +13,21 @@ import 'webmidiapishim'
 navigator.requestMIDIAccess()
 .then(midiAccess => {
   /*
-    midiAccessis is an instance of the native class MIDIAccess if the browser has WebMIDI implemented,
-    or an custom class that mimics the behaviour of MIDIAccess using the Jazz MIDI plugin
+    midiAccess is an instance of the native class MIDIAccess if the browser supports WebMIDI
+    and if not, it is a custom class that mimics the behavior of MIDIAccess by using the Jazz plugin
   */
-  let inputs = midiAccess.inputs.values()
-  let outputs = midiAccess.outputs.values()
+  let inputs = midiAccess.inputs
+  let outputs = midiAccess.outputs
+
 }, error => console.log(error))
 ```
 
-Alternately, you can add the shim as a separate UMD module by embedding it in your html:
+Alternately, you can add the shim as a separate UMD module by embedding it in the html before your application code:
 
 ```html
 
 <script src="/path/to/webmidiapishim-umd.min.js"></script>
+<script src="/path/to/your-midi-app.min.js"></script>
 
 ```
 
