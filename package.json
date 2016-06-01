@@ -1,15 +1,15 @@
 {
   "name": "webmidiapishim",
-  "version": "1.0.0-beta1",
-  "description": "Shim for the WebMIDI API, intended to be used in browsers that don't have the WebMIDI API implemented",
+  "version": "1.0.0",
+  "description": "Chris Wilson's WebMIDIAPIShim made available via npm for es next projects",
   "keywords": [
     "midi",
     "music",
     "sound",
     "webmidi api"
   ],
-  "homepage": "https://github.com/abudaan/webmidiapishim",
-  "bugs": "https://github.com/abudaan/webmidiapishim/issues",
+  "homepage": "https://github.com/abudaan/webmidiapishim_npm",
+  "bugs": "https://github.com/abudaan/webmidiapishim_npm/issues",
   "license": "Apache-2.0",
   "author": {
     "name": "Chris Wilson",
@@ -31,7 +31,7 @@
   "main": "dist/shim.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abudaan/webmidiapishim.git"
+    "url": "https://github.com/abudaan/webmidiapishim_npm.git"
   },
   "scripts": {
     "test": "",
