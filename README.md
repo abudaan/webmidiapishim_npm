@@ -26,9 +26,14 @@ navigator.requestMIDIAccess()
 &nbsp;
 Alternately, you can add the shim as a separate UMD module by embedding it in the html before your application code:
 
+
 ```html
 <script src="/path/to/webmidiapishim-umd.min.js"></script>
 <script src="/path/to/your-midi-app.min.js"></script>
 ```
+You can find the file webmidiapishim-umd.min.js in the `/dist` folder. There is also an unminified version in that folder.
 
-Note that there is also an npm module called [web-midi-api](https://www.npmjs.com/package/web-midi-api) which is maintained by the creator of the Jazz plugin. That module is meant for Node.js projects: it won't work in browser projects.
+
+#####other module: web-midi-api
+
+Another npm module called [web-midi-api](https://www.npmjs.com/package/web-midi-api) is also based on the WebMIDIAPIShim which is. This module is maintained by the creator of the Jazz plugin. Note that this module is meant for Node.js projects: it won't work in browser projects.

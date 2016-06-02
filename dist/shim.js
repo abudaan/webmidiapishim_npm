@@ -26,7 +26,7 @@ var _midimessage_event = require('./midimessage_event');
     //polyfill()
 
     navigator.requestMIDIAccess = function () {
-      console.log('webmidiapishim 1.0.2', navigator.requestMIDIAccess);
+      console.log('webmidiapishim 1.0.3', navigator.requestMIDIAccess);
       return (0, _midi_access.createMIDIAccess)();
     };
     /*
