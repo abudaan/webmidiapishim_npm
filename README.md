@@ -1,4 +1,4 @@
-#### Please use the official version:
+### Please use the official version:
 
 npm: <https://www.npmjs.com/package/web-midi-api>
 
