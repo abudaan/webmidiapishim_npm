@@ -1,4 +1,12 @@
-####WebMIDI API Shim
+#### Please use the official version:
+
+npm: <https://www.npmjs.com/package/web-midi-api>
+
+git: <https://github.com/cwilso/WebMIDIAPIShim>
+
+
+
+#### WebMIDI API Shim
 
 At the moment only Chrome and Opera support the [WebMIDI API](https://www.w3.org/TR/webmidi/). It isn't very likely that other browsers will implement it any time soon. Fortunately the [Jazz plugin](http://jazz-soft.net) is available for all browsers and platforms, and by using this plugin together with the shim you can use the WebMIDI API as if it were implemented natively.
 
@@ -34,6 +42,6 @@ Alternately, you can add the shim as a separate UMD module by embedding it in th
 You can find the file `webmidiapishim-umd.min.js` in the `/dist` folder. There is also an unminified version in that folder.
 
 
-#####web-midi-api
+##### web-midi-api
 
 Another npm module called [web-midi-api](https://www.npmjs.com/package/web-midi-api) is also based on the WebMIDIAPIShim. This module is maintained by the creator of the Jazz plugin. Note that web-midi-api is meant for Node.js projects: it won't work in browser projects.
