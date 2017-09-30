@@ -1,8 +1,11 @@
 ### Please use the official version:
 
+git: <https://github.com/cwilso/WebMIDIAPIShim>
+
 npm: <https://www.npmjs.com/package/web-midi-api>
 
-git: <https://github.com/cwilso/WebMIDIAPIShim>
+
+
 
 
 
