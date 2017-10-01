@@ -1,4 +1,4 @@
-### Please use the official version:
+### This is a deprecated version, please use the official version:
 
 git: <https://github.com/cwilso/WebMIDIAPIShim>
 
