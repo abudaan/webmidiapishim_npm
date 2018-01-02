@@ -1,11 +1,13 @@
 ### This is a deprecated version, please use the official version:
 
 git: <https://github.com/cwilso/WebMIDIAPIShim>
+
 npm: <https://www.npmjs.com/package/web-midi-api>
 
 Or use my personal version:
 
 git: <https://github.com/abudaan/WebMIDIAPIShim>
+
 npm: <https://www.npmjs.com/package/web-midi-api-shim>
 
 ---
