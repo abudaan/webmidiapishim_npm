@@ -4,9 +4,11 @@ git: <https://github.com/cwilso/WebMIDIAPIShim>
 
 npm: <https://www.npmjs.com/package/web-midi-api>
 
+Or use my personal version:
 
+npm: <https://www.npmjs.com/package/web-midi-api-shim>
 
-
+---
 
 
 #### WebMIDI API Shim
