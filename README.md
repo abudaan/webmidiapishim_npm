@@ -1,18 +1,3 @@
-### This is a deprecated version, please use the official version:
-
-git: <https://github.com/cwilso/WebMIDIAPIShim>
-
-npm: <https://www.npmjs.com/package/web-midi-api>
-
-Or use my personal version:
-
-git: <https://github.com/abudaan/WebMIDIAPIShim>
-
-npm: <https://www.npmjs.com/package/web-midi-api-shim>
-
----
-
-
 #### WebMIDI API Shim
 
 At the moment only Chrome and Opera support the [WebMIDI API](https://www.w3.org/TR/webmidi/). It isn't very likely that other browsers will implement it any time soon. Fortunately the [Jazz plugin](http://jazz-soft.net) is available for all browsers and platforms, and by using this plugin together with the shim you can use the WebMIDI API as if it were implemented natively.
